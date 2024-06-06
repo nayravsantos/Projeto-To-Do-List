@@ -10,3 +10,5 @@ const todoList = document.querySelector("#todo-list");
 const editForm = document.querySelector("#edit-form");
 // Campo de edição
 const editInput = document.querySelector("#edit-input");
+// Campo de cancelamento
+const cancelEditBtn = document.querySelector("#cancel-edit-btn");
