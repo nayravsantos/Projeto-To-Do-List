@@ -51,4 +51,10 @@ const saveTodo = (text) => {
 
      // Após o envio o input fica vazio para adicionar mais tarefas
     todoInput.value = "";
+
+      // E aqui a tela foca novamente no input de adicionamento de tarefas
+      todoInput.focus();
+    };
+
+    
  
