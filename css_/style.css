@@ -12,4 +12,10 @@
     font-family: Exo;
     box-sizing: border-box;
 }
- 
+
+/*Corpo do Projeto*/
+body {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
