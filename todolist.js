@@ -111,5 +111,8 @@ const updateTodo = (text) => {
  if (parentEl && parentEl.querySelector("h3")) {
     todoTitle = parentEl.querySelector("h3").innerText;
 }
+  // Finaliza Tarefas (Feito)
+  if (targetEl.classList.contains("finish-todo")) {
+ 
  
     
