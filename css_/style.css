@@ -82,3 +82,6 @@ select:hover {
 /* Personalizações gerais finalizada */
  
 /* Esconder auxilio para o JavaScript*/
+.hide {
+    display: none;
+}
