@@ -96,4 +96,6 @@ const updateTodo = (text) => {
     if (inputValue) {
         saveTodo(inputValue);
         // Salvar Todo
+    }
+});
     
