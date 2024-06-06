@@ -108,5 +108,11 @@ select:hover {
         padding: 1rem;
         border-bottom: 1px solid #CCC;
     }
+
+  /* Parágrafo e fonte no texto acima dos inputs*/
+  #todo-form p, #edit-form p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
      
  
