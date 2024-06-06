@@ -92,3 +92,8 @@ const updateTodo = (text) => {
       // Guarda os valores inseridos no input
       const inputValue = todoInput.value;
  
+       // Mini verificação para que o usuário não deixe o input em branco
+    if (inputValue) {
+        saveTodo(inputValue);
+        // Salvar Todo
+    
