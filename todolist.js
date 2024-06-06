@@ -89,3 +89,6 @@ const updateTodo = (text) => {
     todoForm.addEventListener("submit", (e) => {
         e.preventDefault();
      
+      // Guarda os valores inseridos no input
+      const inputValue = todoInput.value;
+ 
