@@ -122,6 +122,44 @@ const updateTodo = (text) => {
         // parentEl é igual a div done.
         parentEl.remove();
     }
+ //    Edita Tarefas
+ if (targetEl.classList.contains("edit-todo")) {
+ 
+    // Ao clicar no botão de edição aciona a função,
+    // essa função esconde os formulários: criar tarefa e tarefas.
+    toggleForms()
+
+    // Preenche o input de edição com o texto que o usuário quer editar
+    editInput.value = todoTitle;
+
+    // Guarda a tarefa antes dela ser editada,
+    // para caso o usuario cancelar a edição a tarefa não se alterar
+    oldInputValue = todoTitle;
+}
+});
+
+// Cancelar edição
+cancelEditBtn.addEventListener("click", (e) => {
+e.preventDefault();
+
+// Esconde a edição e exibe os outros fomulários
+toggleForms();
+});
+
+// Atualiza tarefa e volta a tela inicial
+editForm.addEventListener("submit", (e) => {
+
+e.preventDefault()
+
+const editInputValue = editInput.value
+
+if (editInputValue) {
+    updateTodo(editInputValue)
+
+}
+toggleForms()
+})
+
  
  
  
