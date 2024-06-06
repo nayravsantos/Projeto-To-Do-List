@@ -94,3 +94,11 @@ select:hover {
     padding: 1.5rem;
     border-radius: 15px;
 }
+
+/* Cabeçalho do ToDoList */
+.todo-conteiner header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #5a5757;
+}
+ 
