@@ -28,3 +28,6 @@ const saveTodo = (text) => {
     todo.classList.add("todo");
   // Titulo
   const todoTitle = document.createElement("h3");
+ // Aqui armazenamos o texto recepido da função saveTodo
+ todoTitle.innerText = text;
+ todo.appendChild(todoTitle);
