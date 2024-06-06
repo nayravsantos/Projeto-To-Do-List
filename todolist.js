@@ -56,5 +56,10 @@ const saveTodo = (text) => {
       todoInput.focus();
     };
 
-    
+    // Esconde os formulário, se já estiver escondido ele exibe
+const toggleForms = () => {
+    editForm.classList.toggle("hide");
+    todoForm.classList.toggle("hide");
+    todoList.classList.toggle("hide");
+}
  
