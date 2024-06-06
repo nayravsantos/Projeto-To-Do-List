@@ -118,6 +118,11 @@ const updateTodo = (text) => {
     }
  // Remove tarefas
  if (targetEl.classList.contains("remove-todo")) {
+      // aciona a variável parentEl e a remove.
+        // parentEl é igual a div done.
+        parentEl.remove();
+    }
+ 
  
  
     
