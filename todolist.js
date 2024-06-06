@@ -48,3 +48,7 @@ const saveTodo = (text) => {
     
      // Coloca o "todo" na Lista geral que no caso é a div "todo-list"  
      todoList.appendChild(todo);
+
+     // Após o envio o input fica vazio para adicionar mais tarefas
+    todoInput.value = "";
+ 
