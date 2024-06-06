@@ -6,3 +6,5 @@ const todoForm = document.querySelector("#todo-form");
 const todoInput = document.querySelector("#todo-input");
 // Inclui novas tarefas
 const todoList = document.querySelector("#todo-list");
+// Formulário de edição
+const editForm = document.querySelector("#edit-form");
