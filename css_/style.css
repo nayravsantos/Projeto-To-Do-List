@@ -85,3 +85,12 @@ select:hover {
 .hide {
     display: none;
 }
+
+/* Centralização e personalização do conteiner do ToDoList*/
+.todo-conteiner {
+    max-width: 450px;
+    margin: 3rem auto;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
