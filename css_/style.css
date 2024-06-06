@@ -101,4 +101,12 @@ select:hover {
     padding: 0 1rem 1rem;
     border-bottom: 1px solid #5a5757;
 }
+
+/* Personalização dos campos do formulário */
+    /* Adiciona margem e separa com uma linha  */
+    #todo-form, #edit-form {
+        padding: 1rem;
+        border-bottom: 1px solid #CCC;
+    }
+     
  
