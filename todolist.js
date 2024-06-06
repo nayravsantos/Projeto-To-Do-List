@@ -98,4 +98,7 @@ const updateTodo = (text) => {
         // Salvar Todo
     }
 });
+ // Indetifica em qual botão foi o click e qual elemento foi clicado e faz uma ação
+ document.addEventListener("click", (e) => {
+ 
     
