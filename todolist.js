@@ -102,6 +102,8 @@ const updateTodo = (text) => {
  document.addEventListener("click", (e) => {
  // Armazena o elemento que foi clicado, como por exemplo ele armazena botão "finish-todo"
  const targetEl = e.target;
+  // armazena o elemento pai mais próximo no html, no caso, temos a div "todo"
+  const parentEl = targetEl.closest("div");
  
  
     
