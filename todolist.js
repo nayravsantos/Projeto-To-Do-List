@@ -104,6 +104,8 @@ const updateTodo = (text) => {
  const targetEl = e.target;
   // armazena o elemento pai mais próximo no html, no caso, temos a div "todo"
   const parentEl = targetEl.closest("div");
- 
+   //Título da tarefa, essa variavél servirá como apoio
+    // para mapear as tarefas para edição das mesmas
+    let todoTitle;
  
     
