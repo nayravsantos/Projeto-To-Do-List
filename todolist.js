@@ -12,3 +12,14 @@ const editForm = document.querySelector("#edit-form");
 const editInput = document.querySelector("#edit-input");
 // Campo de cancelamento
 const cancelEditBtn = document.querySelector("#cancel-edit-btn");
+let oldInputValue;
+ 
+ 
+ 
+// Funções
+ 
+ 
+ 
+// Armazena o texto que vem pelo valor do input
+const saveTodo = (text) => {
+ 
