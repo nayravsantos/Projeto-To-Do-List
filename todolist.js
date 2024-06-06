@@ -22,4 +22,8 @@ let oldInputValue;
  
 // Armazena o texto que vem pelo valor do input
 const saveTodo = (text) => {
+   // Estrutura da div todo-list
+    // Div Geral
+    const todo = document.createElement("div");
+    todo.classList.add("todo");
  
