@@ -76,3 +76,16 @@ const updateTodo = (text) => {
         }
     });
 };
+// Finaliza funções
+ 
+ 
+ 
+// Eventos
+ 
+ 
+ 
+ 
+    // Enviar Formulário
+    todoForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+     
