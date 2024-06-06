@@ -36,3 +36,8 @@ const saveTodo = (text) => {
    // Botão Feito
    const doneBtn = document.createElement("button");
    doneBtn.classList.add("finish-todo");
+    // Em forma de texto o icone feito e introduzido aqui
+     doneBtn.innerHTML = '<i class="bx bx-check"></i>';
+     todo.appendChild(doneBtn);
+
+     
