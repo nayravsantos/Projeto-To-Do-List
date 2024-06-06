@@ -63,3 +63,9 @@ const toggleForms = () => {
     todoList.classList.toggle("hide");
 }
  
+const updateTodo = (text) => {
+    const todos = document.querySelectorAll(".todo");
+ 
+    todos.forEach((todo) => {
+        // Guarda o título da tarefa
+        let todoTitle = todo.querySelector("h3");
