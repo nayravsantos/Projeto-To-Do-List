@@ -26,8 +26,13 @@ const saveTodo = (text) => {
     // Div Geral
     const todo = document.createElement("div");
     todo.classList.add("todo");
+
   // Titulo
   const todoTitle = document.createElement("h3");
  // Aqui armazenamos o texto recepido da função saveTodo
  todoTitle.innerText = text;
  todo.appendChild(todoTitle);
+
+   // Botão Feito
+   const doneBtn = document.createElement("button");
+   doneBtn.classList.add("finish-todo");
