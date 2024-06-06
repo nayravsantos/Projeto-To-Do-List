@@ -44,4 +44,7 @@ const saveTodo = (text) => {
     const editBtn = document.createElement("button");
     editBtn.classList.add("edit-todo");
     editBtn.innerHTML = ' <i class="bx bxs-edit-alt"></i>';
-    todo.appendChild(editBtn);  
+    todo.appendChild(editBtn); 
+    
+     // Coloca o "todo" na Lista geral que no caso é a div "todo-list"  
+     todoList.appendChild(todo);
