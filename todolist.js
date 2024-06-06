@@ -40,4 +40,8 @@ const saveTodo = (text) => {
      doneBtn.innerHTML = '<i class="bx bx-check"></i>';
      todo.appendChild(doneBtn);
 
-     
+    // Botão Editar
+    const editBtn = document.createElement("button");
+    editBtn.classList.add("edit-todo");
+    editBtn.innerHTML = ' <i class="bx bxs-edit-alt"></i>';
+    todo.appendChild(editBtn);  
