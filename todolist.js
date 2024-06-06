@@ -107,5 +107,9 @@ const updateTodo = (text) => {
    //Título da tarefa, essa variavél servirá como apoio
     // para mapear as tarefas para edição das mesmas
     let todoTitle;
+ // Indentifica se parentEl existe e guarda o texto contido no h3 da tarefa
+ if (parentEl && parentEl.querySelector("h3")) {
+    todoTitle = parentEl.querySelector("h3").innerText;
+}
  
     
