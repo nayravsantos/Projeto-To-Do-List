@@ -69,3 +69,10 @@ const updateTodo = (text) => {
     todos.forEach((todo) => {
         // Guarda o título da tarefa
         let todoTitle = todo.querySelector("h3");
+
+          // Encontra todo certo e altera seu texto
+          if (todoTitle.innerText === oldInputValue) {
+            todoTitle.innerText = text;
+        }
+    });
+};
