@@ -1,0 +1,15 @@
+/* Personalização geral */
+ 
+/* Fonte de Letras */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+/* Retira bordas, margens. Adicona a Fonte,
+    e deixa que os elementos filhos não utrpassem os elementos pais.*/
+* {
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+    font-family: Exo;
+    box-sizing: border-box;
+}
+ 
