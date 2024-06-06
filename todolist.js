@@ -100,5 +100,8 @@ const updateTodo = (text) => {
 });
  // Indetifica em qual botão foi o click e qual elemento foi clicado e faz uma ação
  document.addEventListener("click", (e) => {
+ // Armazena o elemento que foi clicado, como por exemplo ele armazena botão "finish-todo"
+ const targetEl = e.target;
+ 
  
     
