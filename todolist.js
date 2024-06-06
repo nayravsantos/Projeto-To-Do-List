@@ -113,6 +113,9 @@ const updateTodo = (text) => {
 }
   // Finaliza Tarefas (Feito)
   if (targetEl.classList.contains("finish-todo")) {
+      // Conclui e retira a conclusão
+      parentEl.classList.toggle("done");
+    }
  
  
     
